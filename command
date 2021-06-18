@@ -1,0 +1,1 @@
+gcc -c ../lib/lib.c -I../lib -lm -ldl -lglut -lGL -lGLEW -lGLU ; gcc -c demo.c -I../lib -lm -ldl -lglut -lGL -lGLEW -lGLU ; gcc lib.o demo.o -o main -I../lib -lm -ldl -lglut -lGL -lGLEW -lGLU
